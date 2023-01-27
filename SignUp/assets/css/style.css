@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(../img/photo-1557683311-eac922347aa1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 700px;
+}
+
+
+.menu{
+    margin-top:7px;
+
+    width: 1230px;
+    border: 1px solid transparent;
+    height: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    
+    
+    
+
+}
+
+.menu .menu-logo{
+    
+   /* display: inline-block; */
+   padding: 13px 20px;
+   margin-left: 20px;
+
+
+}
+.menu .menu-logo h3{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.menu .menu-list{
+    background-color: transparent;
+    margin-left: 500px;
+    margin-top: 5px;
+
+}
+
+
+.menu .menu-list li {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+#getStarted{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 25px;
+    
+}
+#getStarted:hover{
+    background-color: white;
+    transition: 1s;
+}
+
+.menu .menu-list li:hover{
+    background-color: gray;
+    transition: 1s;
+}
+
+.menu .menu-list li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.menu .menu-list li a:hover{
+    color: white;
+    
+}
+ .container .SignUpPanel{
+    background-color: transparent;
+    width: 1229px;
+    height: 700px;
+    margin-left: 71px;
+    display: flex;
+
+    
+ }
+
+.container .SignUpPanel .text{
+    background-color: transparent;
+    width: 617px;
+    height: 700px;
+}
+.container .SignUpPanel .signUp{
+    background-color: transparent;
+    width: 617px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+  
+}
+.container .SignUpPanel .signUp .data{
+    background-color: white;
+    width: 355px;
+    height: 370px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.67);
+
+}
+.container .SignUpPanel .data span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    
+}
+.container .SignUpPanel .data input{
+    width: 280px;
+    margin-top: 15px;
+    height: 35px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: rgb(242, 242, 242);
+}
+.container .SignUpPanel .data .btn{
+    border-radius: 20px;
+    background-color: #1d82ff;
+    color: white; 
+    cursor: pointer;
+    box-shadow: 16px 19px 18px -13px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 16px 19px 18px -13px rgba(0,0,0,0.67);
+    -moz-box-shadow: 16px 19px 18px -13px rgba(0,0,0,0.67);
+}
+.container .SignUpPanel .data select{
+    width: 280px;
+    height: 35px;
+    margin-top: 15px;
+    background-color: rgb(242, 242, 242);
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.container .SignUpPanel .text .texts{
+    background-color: transparent;
+    width: 450px;
+    height: 370px;
+    margin-top: 100px;
+    padding: 30px 20px;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+
+
+
+}
+.container .SignUpPanel .text .texts .fly{
+    font-size: 50px;
+}
+.container .SignUpPanel .text .texts .GreenBtn{
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    cursor: pointer;
+}

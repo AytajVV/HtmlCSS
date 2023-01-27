@@ -1,0 +1,58 @@
+
+body{
+    background-color: gray;
+    padding: 0 150px;
+
+
+}
+h1{
+    color:white;
+    text-align: center;
+}
+.navbar{
+    background-color: palevioletred;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.navbar a{
+    text-decoration: none;
+    
+}
+.navbar li{
+    display: inline-block;
+    padding: 5px 35px;
+}
+.navbar .searchPanel{
+    display: inline-block;
+    padding: 8px 0;
+    
+    
+}
+.navbar input{
+    width: 200px;
+    height: 25px;
+    margin: 4px auto;
+}
+.navbar .btn{
+    width: 70px;
+    height: 25px;
+    
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.leftPanel{
+    background-color: white;
+    width: 780px;
+    height: 300px;
+}
+.rightPanel{
+    background-color: palevioletred;
+    width: 250px;
+    height: 300px;
+    margin-left: 10px;
+    
+}
